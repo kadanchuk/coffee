@@ -1,0 +1,66 @@
+   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+}
+
+/* Навігація */
+.navbar {
+    height: 80px;
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 50px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Логотип */
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #d85b8a;
+}
+
+/* Кнопки */
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+
+.text-center {  
+
+text-align:center ;
+
+
+}
+
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: white;
+
+    background-color: #8d654a;
+
+    padding: 12px 25px;
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+/* Наведення */
+.nav-buttons a:hover {
+    background-color: #381b0e;
+    transform: translateY(-2px);
+}
+    
