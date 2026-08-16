@@ -29,7 +29,25 @@ body {
     font-weight: bold;
     color: #d85b8a;
 }
-
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5b3825;
+}
+Come play Smash Karts 
+Room: eu355623 
+: 15px;
+}
+.logo span {
+    font-family: Georgia, serif;
+}
+.logo span {
+    font-family: Georgia, serif;
+}
 /* Кнопки */
 .nav-buttons {
     display: flex;
