@@ -1,54 +1,117 @@
-<!DOCTYPE html 
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./style.css">
-    
+<!DOCTYPE html>
 
+<html lang="uk">
 
-       
-   <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Навігація</title>
-
-   
+    <title>Книгарня-кав'ярня Старого Лева</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
     <nav class="navbar">
-  
-  <div class="logo">
-    🦁
-    <span> Книгарню кавярню Старого Лева</span>
-</div>
+        <div class="logo">
+            🦁
+            <span>Книгарня-кав'ярня Старого Лева</span>
+        </div>
 
         <div class="nav-buttons">
-            <a href="#menu">Меню</a>
+            <a href="./menu.html">Меню</a>
             <a href="#about">Про нас</a>
             <a href="#order">Замовити</a>
-     
-      
-    </div>
-<div class="coffe">
-<img src="https://images.openai.com/static-rsc-4/BmJ-IVV86QKgY80rHmBuDsPFecDjcmSrQXN1my2XaNXxguEvsM17HUlnRVhRg1qN8doGlPZ0dLoQMVclhZ7D9KuT5Vz7xlbx8fIjzKyPuwS-gqO17lHuZyvU1zlmN4up3mn5lvK7zmzRSh5jPMY4khvxMSq06Fnh-Mmjk3_NAe0?purpose=inline" alt="">
-
-
-</div>
-
-
-
-    </nav>
-
+        </div>
     </nav>
 
     <main>
-        <h1>Ласкаво просимо! В  Книгарню кавярню  Старого Лева </h1>
-    </main> 
 
-    </head>
-    <body>
-        <h1></h1>
-    </body>
+        <!-- Головний блок -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Ласкаво просимо!</h1>
+                <h2>Книгарня-кав'ярня Старого Лева</h2>
+                <p>
+                    Місце, де хороші книги зустрічаються
+                    з ароматною кавою та затишною атмосферою.
+                </p>
+
+                <a href="#menu" class="hero-button">Переглянути меню</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.openai.com/static-rsc-4/BmJ-IVV86QKgY80rHmBuDsPFecDjcmSrQXN1my2XaNXxguEvsM17HUlnRVhRg1qN8doGlPZ0dLoQMVclhZ7D9KuT5Vz7xlbx8fIjzKyPuwS-gqO17lHuZyvU1zlmN4up3mn5lvK7zmzRSh5jPMY4khvxMSq06Fnh-Mmjk3_NAe0?purpose=inline"
+                    alt="Кава">
+            </div>
+        </section>
+
+        <!-- Меню -->
+
+        <section id="menu" class="section menu-section">
+            <h2>Наше меню</h2>
+
+
+            <div class="cards">
+
+                <a href="./menu.html#coffee" class="card">
+                    <div class="card-icon">☕</div>
+                    <h3>Кава</h3>
+                    <p>Ароматна кава для гарного настрою.</p>
+                </a>
+
+                <a href="./menu.html#cakes" class="card">
+                    <div class="card-icon">🍰</div>
+                    <h3>Десерти</h3>
+                    <p>Смачні десерти до вашої улюбленої кави.</p>
+                </a>
+
+                <a href="./menu.html#books" class="card">
+                    <div class="card-icon">📚</div>
+                    <h3>Книги</h3>
+                    <p>Цікаві книги для дітей та дорослих.</p>
+                </a>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- Про нас -->
+        <section id="about" class="section about-section">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=900" alt="Затишна кав'ярня">
+            </div>
+
+            <div class="about-text">
+                <h2>Про нас</h2>
+                <p>
+                    Книгарня-кав'ярня Старого Лева — це затишне місце,
+                    де можна відпочити, почитати книгу та насолодитися
+                    чашкою запашної кави.
+                </p>
+                <p>
+                    Завітайте до нас самі або приходьте разом із друзями.
+                </p>
+            </div>
+        </section>
+
+        <!-- Замовлення -->
+        <section id="order" class="section order-section">
+            <h2>Замовити</h2>
+            <p>Оберіть улюблену каву або десерт та насолоджуйтеся моментом.</p>
+
+            <button class="order-button">Зробити замовлення</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>🦁 Книгарня-кав'ярня Старого Лева</p>
+        <p>© 2026 Усі права захищені</p>
+    </footer>
+
+
+</body>
+
 </html>
